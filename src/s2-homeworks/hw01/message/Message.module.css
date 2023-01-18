@@ -3,15 +3,25 @@
 }
 
 .imageAndText {
-
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
 .imageAndText img {
-
+    width: 60px;
 }
 
 .text {
-
+    height: 50px;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: #0059b3;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .text:after {
@@ -27,5 +37,8 @@
 }
 
 .time {
-
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 18px;
+    font-size: 12px;
 }

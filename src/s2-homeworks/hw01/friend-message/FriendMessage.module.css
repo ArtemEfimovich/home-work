@@ -3,15 +3,23 @@
 }
 
 .friendImageAndText {
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .friendImageAndText img {
-
+    width: 60px;
 }
 
 .friendText {
-
+    height: 50px;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .friendText:after {
