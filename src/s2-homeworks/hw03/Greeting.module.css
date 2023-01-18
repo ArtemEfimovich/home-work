@@ -5,15 +5,18 @@
 }
 
 .error {
+    color: #cc0000;
 }
 
 .input {
+    background-color: white;
 }
 
 .input:focus {
 }
 
 .errorInput {
+    background-color: #cc0000;
 }
 
 .button {
