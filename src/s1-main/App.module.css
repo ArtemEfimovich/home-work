@@ -4,7 +4,6 @@
     height: 100%;
     width: 85%;
     margin: 0 auto;
-    display: flex;
     align-items: center;
     flex-wrap: wrap;
     z-index: 100;
