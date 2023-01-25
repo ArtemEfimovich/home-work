@@ -1,14 +1,42 @@
 .buttonsContainer {
+    display:flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-bottom: 20px;
 }
 
 .clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
 }
 
 .watch {
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .watch strong {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
 }
 
 .more {
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
