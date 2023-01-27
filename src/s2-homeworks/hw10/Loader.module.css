@@ -1,3 +1,6 @@
 .loader {
     /*свг и/или анимация*/
+    width: 50px;
+    height: 65px;
+    background: url(https://icons8.com/preloaders/preloaders/1474/Walk.gif);
 }
