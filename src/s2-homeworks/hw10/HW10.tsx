@@ -29,7 +29,7 @@ const HW10 = () => {
     }
 
     return (
-        <div id={'hw10'} style={{paddingTop:'50px', paddingLeft:'150px'}}>
+        <div id={'hw10'} className={s2.container}>
             <div className={s2.hwTitle}>Homework #10</div>
 
             <div className={s2.hw}>

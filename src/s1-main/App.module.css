@@ -9,6 +9,12 @@
     z-index: 100;
 }
 
+.container{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
 .hw {
     padding-top: 50px;
     position: absolute;

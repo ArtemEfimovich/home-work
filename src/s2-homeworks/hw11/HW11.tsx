@@ -27,7 +27,7 @@ function HW11() {
     }
 
     return (
-        <div id={'hw11'} style={{paddingTop:'100px',paddingLeft:'150px'}}>
+        <div id={'hw11'} className={s2.container}>
             <div className={s2.hwTitle}>Homework #11</div>
 
             <div className={s2.hw}>
