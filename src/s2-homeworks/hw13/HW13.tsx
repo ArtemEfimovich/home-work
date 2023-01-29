@@ -32,6 +32,7 @@ const HW13 = () => {
         setText('')
         setInfo('...loading')
         setIsLoading(true)
+
         axios
             .post(url, {success: x})
             .then((res) => {
@@ -44,8 +45,8 @@ const HW13 = () => {
             .catch((e) => {
                setCode(e.response.status)
                 e.response.status === 500 ? setImage(error500) : e.response.status === 400 ? setImage(error400):setImage(errorUnknown)
-                e.response.data ? setInfo(e.response.data.info): setInfo(e.response.error)
-                e.response.data ? setText(e.response.errorText): setText(e.message)
+                e.response.data ? setInfo(e.response.data.info): setInfo("Error")
+                e.response.data ? setText(e.response.data.errorText): setText(e.message)
             })
             .finally(()=>{
                 setIsLoading(false)
