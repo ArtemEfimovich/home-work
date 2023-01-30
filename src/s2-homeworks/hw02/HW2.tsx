@@ -54,7 +54,7 @@ function HW2() {
     }
 
     return (
-        <div id={'hw2'} style={{paddingTop:'50px'}}>
+        <div id={'hw2'} className={s2.container}>
             <div className={s2.hwTitle}>Homework #2</div>
             <div className={s2.hw}>
                 <Affairs
